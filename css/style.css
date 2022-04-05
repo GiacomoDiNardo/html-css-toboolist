@@ -38,22 +38,6 @@ ul {
     list-style: none;
 }
 
-.task-button {
-    background-color: #47ADF1;
-    border: 0;
-    color: white;
-}
-
-.section-button {
-    background-color: white;
-    color: lightgrey;
-    border: 1px solid black;
-}
-
-.list {
-    margin-top: 40px;
-}
-
 ul li {
     margin-top: 20px;
 }
@@ -70,7 +54,21 @@ ul li {
     border-radius: 10px;
 }
 
+.task-button {
+    background-color: #47ADF1;
+    border: 0;
+    color: white;
+}
 
+.section-button {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid black;
+}
+
+.list {
+    margin-top: 40px;
+}
 
 .check {
     border: 1px solid green;
