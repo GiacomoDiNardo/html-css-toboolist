@@ -19,6 +19,45 @@ header h1 {
     display: inline-block;
 }
 
+nav {
+    padding: 15px 60px;
+    border-bottom: 2px solid #F6F8F9;
+}
+
+nav button {
+    padding: 7px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+main {
+    padding-left: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+.task-button {
+    background-color: #47ADF1;
+    border: 0;
+    color: white;
+}
+
+.section-button {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid black;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+ul li {
+    margin-top: 20px;
+}
+
 .header-logo {
     vertical-align: top;
 }
@@ -28,6 +67,24 @@ header h1 {
     margin: auto;
     background-color: white;
     margin-top: 50px;
-    padding: 15px 40px;
-    border-bottom: 1px solid #F6F8F9;
+    border-radius: 10px;
+}
+
+
+
+.check {
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.label {
+    background-color: #45ABEA;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 10px;
 }
